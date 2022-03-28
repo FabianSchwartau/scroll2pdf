@@ -11,10 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>scroll2pdf</string>
   </property>
   <property name="windowIcon">
-   <iconset theme="://img/scroll2pdf.png"/>
+   <iconset theme="://img/scroll2pdf.png">
+    <normaloff>.</normaloff>.</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
