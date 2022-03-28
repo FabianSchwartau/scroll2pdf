@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>scroll2pdf.png</file>
+    </qresource>
+</RCC>
