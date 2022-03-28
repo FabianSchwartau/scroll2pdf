@@ -12,6 +12,7 @@ There are a lot of thing not working perfectly or missing, which may be consider
 - The application basically only works when you have two monitors as you need to watch its progress while scrolling.
 - Sometimes it happens that you get some small errors in the images, because the application you are scanning did not update the scrolled area fast enough (especially when a browser is loading stuff). It will then not detect any futher images and you have to use the undo button to remove a few previous steps to get it back on track.
 - A manual selection for page breaks would be nice, but that probably a bit of work.
+- The installation of the desktop file does not work.
 
 ## Build
 ### Linux
