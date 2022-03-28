@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=scroll2pdf
+Comment=Scroll any window and convert the content to a PDF
+Exec=$$target.path/scroll2pdf
+Icon=scroll2pdf
+Categories=Graphics;
