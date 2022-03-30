@@ -260,11 +260,13 @@ void MainWindow::updateScene()
     scene.clear();
     lastPage = new QGraphicsPixmapItem();
     lastPage->setOffset(0, 0);
+    lastPage->setTransformationMode(Qt::SmoothTransformation);
     scene.addItem(lastPage);
     int totalPixelLength = 0;
     for(int i = 0; i < state.pages.size(); i++)
     {
         QGraphicsPixmapItem *item = new QGraphicsPixmapItem(QPixmap::fromImage(state.pages[i]));
+        item->setTransformationMode(Qt::SmoothTransformation);
         item->setOffset(0, totalPixelLength);
         scene.addItem(item);
         totalPixelLength += state.pages[i].height() + 20;
@@ -355,6 +357,7 @@ void MainWindow::buttonStart()
         scene.clear();
         lastPage = new QGraphicsPixmapItem();
         lastPage->setOffset(0, 0);
+        lastPage->setTransformationMode(Qt::SmoothTransformation);
         scene.addItem(lastPage);
         ui->view->verticalScrollBar()->setValue(ui->view->verticalScrollBar()->minimum());
     }
